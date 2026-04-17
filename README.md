@@ -16,3 +16,5 @@ In the confusion matrix, we find out how often our model predicted each label as
 
 <img width="2523" height="1451" alt="Screenshot (622)" src="https://github.com/user-attachments/assets/67f33bf0-0b9d-4436-a4f9-43990b4d9b5a" />
 Looking at the plot, it becomes clear that out of 90 input variables, the random forest algorithm selected only a few significant variables that have influenced their decisions more than others. Higher bar values indicate more significant features, while lower values near or below zero have been less effective. From this observation, it seems that among 90 time-series force torque inputs, our algorithm has utilized some specific inputs that are within the failure window.
+
+------------------------------------------------------------------------------------------------------------
